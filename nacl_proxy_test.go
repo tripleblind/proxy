@@ -9,7 +9,6 @@ import (
 
 func TestNaClProxy(t *testing.T) {
 
-	const reps = 65536
 	var key = [32]byte{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 
 	assert := assert.New(t)
